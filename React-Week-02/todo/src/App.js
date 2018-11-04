@@ -7,10 +7,8 @@ class App extends React.Component {
   
   state = {
     todos: todos,
-    createTodoText: '',
-    isUpdate: false,
-    updateTodoText: '',
-    updateTodo: {}
+    createTodoText: ''
+  
 
   }
   _createTodoText = (e) => {
